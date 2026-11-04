@@ -10,7 +10,7 @@ The website of **FloppersBlop**, an independent creative technology project by [
 
 ## About the project
 
-FloppersBlop is a one-person workshop: a place for ideas that flop, get rebuilt, and sometimes turn into something worth sharing. The site is a plain, hand-built static site with a maximalist look: layered colour bands, tilted sticker cards, mixed type, a blob cursor that follows the pointer, and animated page transitions.
+FloppersBlop is a one-person workshop: a place for ideas that flop, get rebuilt, and sometimes turn into something worth sharing. The site is a plain, hand-built static site with a brutalist-maximalist look: flat colour slabs, thick black borders, hard shadows, huge condensed type and the mascot stickers. A blob cursor and a quick page wipe run on desktop only.
 
 | Project | What it is |
 |---|---|
@@ -36,9 +36,9 @@ FloppersBlop is a one-person workshop: a place for ideas that flop, get rebuilt,
 
 Plain HTML, CSS and JavaScript. No framework, no build step, no dependencies.
 
-- Fonts from Google Fonts: Rubik Spray Paint, Big Shoulders Display, Instrument Serif, Pixelify Sans, Bricolage Grotesque.
-- Responsive layout for phones, tablets and desktops (checked at 390 px wide up to large screens).
-- Animations and the custom cursor respect `prefers-reduced-motion`; the cursor is switched off on touch screens.
+- Three Google Fonts: Big Shoulders Display (headlines), Pixelify Sans (labels) and Bricolage Grotesque (text).
+- Responsive layout for phones, tablets and desktops: Explore tiles become a two-column grid on phones, the three projects become a swipe row, and the long legal pages collapse into tap-to-open sections.
+- Built to stay fast on low-end phones: flat colours and hard shadows (no blur, blend or filter effects), no continuous animation on phones, resized images and a total weight of about 2.6 MB. Desktop-only effects and animations also switch off for `prefers-reduced-motion`.
 - The CV page has its own print stylesheet: use **Print / save as PDF** on the page.
 
 ## Folder layout
